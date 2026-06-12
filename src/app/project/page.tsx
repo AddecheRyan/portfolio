@@ -25,7 +25,7 @@ export default function ProjectPage() {
                     <li className="rounded-md border-2 px-2 py-1">Prisma</li>
                   </ul>
                 </div>
-                <img src="/STS/MQP-Slide.jpg" alt="Student Assistant Solver Tool" className="w-96 h-72 object-cover rounded-lg mb-2"></img>
+                <img src="/STS/MQP-Slide.jpg" alt="Student Assistant Solver Tool" className="w-96 h-72 rounded-lg"></img>
               </div>
             </Link>
         </div>
