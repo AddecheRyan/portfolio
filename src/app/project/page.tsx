@@ -12,10 +12,21 @@ export default function ProjectPage() {
           <p className="text-xl text-teal my-4">Click on a project to learn more!</p>
           <hr className="w-7/8 lg:w-full md:w-full border-mint my-4 mx-auto"></hr>
         </div>
-        <div className="flex flex-col gap-6 mt-8">
-            <Link key={1} href={`/project/STS`} className="group block rounded-xl border-2 border-mint/40 bg-white p-6 shadow-sm transition-all hover:border-teal hover:shadow-md">
-              <h2 className="text-2xl font-semibold text-baltic group-hover:text-teal transition-colors">Student Assistant Solver Tool</h2>
-              <p className="mt-2 text-baltic/70">My senior project for my Bachelor's degree in Computer Science at Worcester Polytechnic Institute. My group and I developed a web application that increased the efficiency of the student assistant placement process.</p>
+        <div className="flex flex-col gap-6 mt-8 items-stretch">
+            <Link key={1} href={`/project/STS`} className="group block rounded-xl border-2 p-6 shadow-md transition-all hover:border-teal hover:shadow-2xl">
+              <div className="flex flex-row gap-8">
+                <div className="flex flex-col">
+                  <h2 className="text-3xl font-semibold">Student Assistant Solver Tool</h2>
+                  <p className="mt-auto text-xl">My senior project for my Bachelor's degree in Computer Science at Worcester Polytechnic Institute. My group and I developed a web application that increased the efficiency of the student assistant placement process.</p>
+                  <ul className="mt-auto flex flex-row gap-2">
+                    <li className="rounded-md border-2 px-2 py-1">Typescript</li>
+                    <li className="rounded-md border-2 px-2 py-1">Next.js</li>
+                    <li className="rounded-md border-2 px-2 py-1">tRPC</li>
+                    <li className="rounded-md border-2 px-2 py-1">Prisma</li>
+                  </ul>
+                </div>
+                <img src="/STS/MQP-Slide.jpg" alt="Student Assistant Solver Tool" className="w-96 h-72 object-cover rounded-lg mb-2"></img>
+              </div>
             </Link>
         </div>
       </div>

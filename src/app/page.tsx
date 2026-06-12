@@ -24,7 +24,8 @@ export default async function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-10 rounded-xl p-6">
+        <hr className="w-7/8 lg:w-full md:w-full border-mint my-4 mx-auto"></hr>
+        <div className="rounded-xl p-6">
           <h2 className="text-4xl font-bold mb-4 text-center">About Me</h2>
           <div className="space-y-4 text-lg">
             <p>Hi there! My name is Ryan Addeche and I am a software engineer based in the Greater Boston Area. I have recently completed my Bachelor&apos;s degree in Computer Science at Worcester Polytechnic Institute.</p>
