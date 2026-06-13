@@ -17,7 +17,7 @@ export default function ProjectPage() {
               <div className="flex flex-row gap-8">
                 <div className="flex flex-col">
                   <h2 className="text-3xl font-semibold">Student Assistant Solver Tool</h2>
-                  <p className="mt-auto text-xl">My senior project for my Bachelor's degree in Computer Science at Worcester Polytechnic Institute. My group and I developed a web application that increased the efficiency of the student assistant placement process.</p>
+                  <p className="mt-auto text-xl">My senior project for my Bachelor's degree in Computer Science at Worcester Polytechnic Institute. My group and I developed a web application that increased the efficiency of the student assistant placement process that serves 100+ users.</p>
                   <ul className="mt-auto flex flex-row gap-2">
                     <li className="rounded-md border-2 px-2 py-1">Typescript</li>
                     <li className="rounded-md border-2 px-2 py-1">Next.js</li>
