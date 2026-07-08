@@ -1,4 +1,4 @@
-import STS from "@/project-pages/STS/STS.mdx";
+import STS from "@/project-pages/STS.mdx";
 
 export default function Project() {
 
